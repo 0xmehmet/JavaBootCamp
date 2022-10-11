@@ -1,0 +1,10 @@
+
+public class Main {
+          // bu şekil olursa yorum satırıdır
+	public static void main(String[] args) {
+		
+		System.out.println("hello world!");
+		
+	}
+
+}

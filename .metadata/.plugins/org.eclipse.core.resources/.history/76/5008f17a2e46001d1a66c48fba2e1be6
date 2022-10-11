@@ -1,0 +1,20 @@
+
+public class Main {
+          // bu şekil olursa yorum satırıdır
+	public static void main(String[] args) {
+		
+		System.out.println("hello world!");
+		
+		// string metinsel ifade tutacağını belirtiyor
+		// ";" bununla bitirmek zorundayız
+		// değişken isimleri camelCase şeklinde yazılır
+		
+		String ortaMetin ="ilginizi çekebilir" ;
+		String altMetin ="vade süresi";
+		
+		System.out.println("ortaMetin");
+		
+		
+	}
+
+}

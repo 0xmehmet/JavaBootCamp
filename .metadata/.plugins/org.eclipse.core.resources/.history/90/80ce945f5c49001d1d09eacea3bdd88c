@@ -1,0 +1,15 @@
+package oop1;
+
+//PascalCase isimlendirmesi yapılır.Classlar  için geçerlidir bu
+public class Product {
+ //ürünü tanımlayabileceğimiz ortamı hazırlıyoruz
+	//product ürünümüzdür
+	//domain : iş demektir.
+	//camelCase şeklinde yazılır.
+	String name;
+	double unitPrice;
+	double discount;
+	String imageUrl;
+	int unitsInStock;
+	
+}

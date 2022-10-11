@@ -1,0 +1,49 @@
+
+public class Main {
+          // bu şekil olursa yorum satırıdır
+	public static void main(String[] args) {
+		
+		System.out.println("hello world!");
+		
+		// string metinsel ifade tutacağını belirtiyor
+		// ";" bununla bitirmek zorundayız
+		// değişken isimleri camelCase şeklinde yazılır
+		
+		String ortaMetin ="ilginizi çekebilir" ;
+		String altMetin ="vade süresi";
+		
+		// System.out.println("ortaMetin"); 
+		// parantez içerisini " " şeklinde yazarsak atama yapamış oluruz sadece " " içindeki metini yazdırmış oluruz.
+		// atama yapmak istiyorsak "" bunu kullanmadan yapmamız gerekiyor.
+		
+		System.out.println(ortaMetin);
+		//yukarıdaki gibi yapılırsa atama yapılmış olur.
+		
+		//tam sayı durumlarında mesela 10 12 gibi durumlarda "int" komutunu kullanıyoruz
+		
+		int vade = 12;
+		
+		//ondalıklı sayıları "double" ile tutarız 10.3 12.45 gibi
+		
+		double dolarDun = 19.45;
+		double dolarBugun = 18.15;
+		
+		boolean dolarDegeri = false;
+		
+		String okYonu ="";// "" bu şekil olursa boş olur
+		
+		if (dolarBugun<dolarDun) {//true
+			
+			okYonu="down.svg";
+			System.out.println(okYonu);
+			
+			
+		} else {
+			okYonu="up.svg";
+			System.out.println(okYonu);
+
+		}
+		
+	}
+
+}

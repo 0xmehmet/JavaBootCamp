@@ -1,0 +1,5 @@
+package oop1;  //bireysel müşteri müşteridir demek
+                               // is gibi okuyabiliriz extends
+public class IndividualCustomer extends Customer {
+
+}
